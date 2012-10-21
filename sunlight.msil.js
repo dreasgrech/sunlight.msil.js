@@ -6,7 +6,7 @@
 
 	var languageDefinition = {
 		//the language's keywords
-		keywords: ["maxstack", "assembly", "extern", "method", "static", "void", "entrypoint", "locals", "string", "int32", "int64", "bool"],
+		keywords: ["maxstack", "assembly", "extern", "method", "static", "void", "entrypoint", "locals", "string", "int32", "int64", "bool", "class", "extends"],
 
 		//strings, comments, etc.
 		scopes: {
@@ -69,5 +69,4 @@
 
 	sunlight.registerLanguage("msil", languageDefinition);
 } (this["Sunlight"]));
-
 
